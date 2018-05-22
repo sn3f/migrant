@@ -174,3 +174,7 @@ body {
 .container {
 	max-width: 100%;
 }
+
+@media (max-width: 767px) {
+	#chart-iframe {height:4000px;}
+}
