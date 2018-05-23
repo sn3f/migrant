@@ -5,7 +5,7 @@ $(function() {
 			$(this).html('');
 		});
 		var el = $(this).nextAll('.result:visible').first();
-		el.html($(this).find('.d-none').html());
+		el.html($(this).find('.d-none').next().next().html());
 		el.css('padding', '40px 0px');
 	});
 	
