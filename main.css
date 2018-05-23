@@ -21,6 +21,7 @@ body {
 }
 
 .corner {
+	width: 53px;
 	height: 37px;
 	color: #FFF;
 	font-size: 0.8em;
